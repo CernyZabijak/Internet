@@ -7,7 +7,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageIcon>batman.png</PackageIcon>
-    <AssemblyName>Weeeeee</AssemblyName>
+    <AssemblyName>Internet</AssemblyName>
     <ApplicationIcon>batman.ico</ApplicationIcon>
     <Authors>CernyZabijak</Authors>
     <Company>CernyZabijak s.r.o.</Company>

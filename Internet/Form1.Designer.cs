@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(S));
             speedTextBox = new TextBox();
             latencyTextBox = new TextBox();
             providerTextBox = new TextBox();
@@ -222,6 +223,7 @@
             Controls.Add(providerTextBox);
             Controls.Add(latencyTextBox);
             Controls.Add(speedTextBox);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 4, 3, 4);
             Name = "S";
             Text = "Weeeee";

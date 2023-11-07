@@ -62,39 +62,39 @@ namespace Internet
             {
                 summaryTextbox.Text = $"Wow, you've got the world's slowest internet with {provider}! It'll take {downloadTime} hours to download the file with a whopping {speed} Mbps speed and {latency} ms latency.";
             }
-            if (speed > 6 && speed < 12)
+            if (speed >= 6 && speed < 12)
             {
                 summaryTextbox.Text = $"Your {provider} internet is on a coffee break. It estimates just {downloadTime} hours to download the file with a speedy {speed} Mbps connection and {latency} ms latency.";
             }
-            if (speed > 12 && speed < 20)
+            if (speed >= 12 && speed < 20)
             {
                 summaryTextbox.Text = $"Your {provider} internet moves at a glacial pace. Expect a mere {downloadTime} hours for the download with {speed} Mbps speed and {latency} ms latency.";
             }
-            if (speed > 20 && speed < 34)
+            if (speed >= 20 && speed < 34)
             {
                 summaryTextbox.Text = $"You've got the patience of a saint with {provider}! It'll only be {downloadTime} hours to get that file, thanks to a decent {speed} Mbps speed and {latency} ms latency.";
             }
-            if (speed > 34 && speed < 50)
+            if (speed >= 34 && speed < 50)
             {
                 summaryTextbox.Text = $"Your {provider} internet is making progress. It's forecasting {downloadTime} hours for the download with {speed} Mbps speed and {latency} ms latency.";
             }
-            if (speed > 50 && speed < 75)
+            if (speed >= 50 && speed < 75)
             {
                 summaryTextbox.Text = $"Not too shabby with {provider}! It'll take just {downloadTime} hour to snatch the file, thanks to a respectable {speed} Mbps speed and {latency} ms latency.";
             }
-            if (speed > 75 && speed < 125)
+            if (speed >= 75 && speed < 125)
             {
                 summaryTextbox.Text = $"Your {provider} internet is above average. It'll be done in {downloadTime * 60} minutes with {speed} Mbps speed and {latency} ms latency.";
             }
-            if (speed > 125 && speed < 250)
+            if (speed >= 125 && speed < 250)
             {
                 summaryTextbox.Text = $"Decent speed with {provider}! It estimates a quick {downloadTime * 60} minutes for the download with {speed} Mbps speed and {latency} ms latency.";
             }
-            if (speed > 250 && speed < 500)
+            if (speed >= 250 && speed < 500)
             {
                 summaryTextbox.Text = $"Impressive with {provider}! Your internet will get the file in {downloadTime * 60} minutes flat with a speedy {speed} Mbps connection and {latency} ms latency.";
             }
-            if (speed > 500)
+            if (speed >= 500)
             {
                 summaryTextbox.Text = $"You've got the Usain Bolt of internet connections with {provider}. It'll be lightning-fast, just {downloadTime * 60} minutes to go with an incredible {speed} Mbps speed and {latency} ms latency.";
             }
